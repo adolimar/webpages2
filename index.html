@@ -21,9 +21,9 @@
     </header>
     <main>
         <!-- Contenido principal-->
-         <!--Sección 1 del contenido-->
-         <section id="seccion1">
-            <h2>Seccion 1: Frmato y Listas</h2>
+        <!--Sección 1 del contenido-->
+        <section id="seccion1">
+            <h2>Seccion 1: Formato y Listas</h2>
             <p>Este es un párrafo con <strong>negrita</strong>, <em>cursiva</em> y <u>subrayado</u></p>
             <h3>Lista desordenada</h3>
             <ul>
@@ -37,32 +37,43 @@
                 <li>Segundo Elemento</li>
                 <li>Tercer Elemento</li>
             </ol>
-         </section>
-         <!--Sección 2 del contenido-->
-         <section id="seccion2">
-            <h2>Sección 2: Teblas y Mapas de Imagen</h2>
+        </section>
+        <!--Sección 2 del contenido-->
+        <section id="seccion2">
+            <h2>Sección 2: Tablas y Mapas de Imagen</h2>
             <h3>Tabla de datos</h3>
             <!--Tabla de datos-->
             <table border="0">
                 <thead>
-                <tr>
-                    <th>Encabezado 1</th>
-                    <th>Encabezado 2</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dato 1</td>
-                    <td>Dato 2</td>
-                </tr>
-                <tr>
-                    <td>Dato 3</td>
-                    <td>Dato 4</td>
-            </tbody>
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                </tbody>
 
             </table>
 
-         </section>
+            <!--Subtítulo para el mapa de la imagen-->
+            <h3>Mapa de Imagen</h3>
+            <img src="./assets/img/imagen1.jpg" alt="Globos" usemap="#mapa">
+            <map name="mapa">
+                <area target="_blank" alt="zona1" title="zona1" href="./enlace1.html"
+                    coords="94,56,232,17,343,34,425,65,370,135,188,115,140,129" shape="poly">
+                <area target="_blank" alt="zona2" title="zona2" href="./enlace2.html" coords="253,254,127"
+                    shape="circle">
+            </map>
+
+
+        </section>
 
     </main>
 </body>
